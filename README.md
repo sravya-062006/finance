@@ -42,24 +42,7 @@ A clean, modern, and interactive finance tracking application built with React.j
  Functional Components: Modern React patterns using hooks (`useState`, `useEffect`, `useMemo`, `useReducer`, `useContext`).
  Atomic Design Principles: Reusable components like `SummaryCard`, `Modal`, and `Layout` to maintain a DRY (Don't Repeat Yourself) codebase.
 
-  Setup & Installation
-
-1. Install Dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Run Development Server:
-   ```bash
-   npm run dev
-   ```
-
-3. Build for Production:
-   ```bash
-   npm run build
-   ```
-
-  Role Simulation
+  
  Admin: Full access to add and delete transactions.
  Viewer: Readonly access. Actions like "Add Transaction" and "Delete" are disabled and provide visual feedback explaining why.
  Switcher: Use the toggle in the header to instantly switch roles and see the UI update dynamically.
