@@ -7,7 +7,8 @@ A clean, modern, and interactive finance tracking application built with React.j
  1. Dashboard Overview
  Summary Cards: Realtime calculation of Total Balance, Income, and Expenses.
  Animated Counts: Numerical values animate from zero to target on load for a premium feel.
- SVG Charts: Custombuilt, lightweight SVG line and donut charts with CSS drawing animations.
+ SVG Charts: Custombuilt, lightweight SVG line and do
+ nut charts with CSS drawing animations.
  Trend Indicators: Visual cues showing percentage changes in financial metrics.
 
  2. Transaction Management
@@ -40,24 +41,7 @@ A clean, modern, and interactive finance tracking application built with React.j
 
  Component Architecture
  Functional Components: Modern React patterns using hooks (`useState`, `useEffect`, `useMemo`, `useReducer`, `useContext`).
- Atomic Design Principles: Reusable components like `SummaryCard`, `Modal`, and `Layout` to maintain a DRY (Don't Repeat Yourself) codebase.
-
-  Setup & Installation
-
-1. Install Dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Run Development Server:
-   ```bash
-   npm run dev
-   ```
-
-3. Build for Production:
-   ```bash
-   npm run build
-   ```
+ Atomic Design Principles: Reusable components like `SummaryCard`, `Modal`, and `Layout` to maintain 
 
   Role Simulation
  Admin: Full access to add and delete transactions.
